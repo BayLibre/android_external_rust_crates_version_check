@@ -1,0 +1,28 @@
+name: "version_check"
+description: "Tiny crate to check the version of the installed/running rustc."
+third_party {
+  version: "0.9.5"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2026
+    month: 11
+    day: 4
+  }
+  homepage: "https://crates.io/crates/version_check"
+  identifier {
+    type: "crates.io"
+    value: "version_check"
+    version: "0.9.5"
+    primary_source: true
+  }
+  identifier {
+    type: "Archive"
+    value: "https://static.crates.io/crates/version_check/version_check-0.9.5.crate"
+    version: "0.9.5"
+  }
+  identifier {
+    type: "Git"
+    value: "https://github.com/SergioBenitez/version_check"
+    version: "d77ef9f27cc336719b2d839d09ee6635dd22f758"
+  }
+}
